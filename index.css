@@ -1,0 +1,84 @@
+*,
+*::before,
+::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*HEADER SECTION**********************************/
+
+
+.header {
+    background-image: url(mobileimages/colosseum-rome-italy-2064827%201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.flag_wrapper {
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+.flag_image {
+    width: 30%;
+    height: auto;
+}
+
+.nav_wrapper {
+    flex-grow: 1;
+}
+
+.nav_text {
+    color: #CD212A;
+    text-decoration: none;
+    padding: 0 1.7rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.contact {
+    background: #CD212A;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.header_title_wrapper {
+    padding: 2rem 0;
+}
+
+.header_title {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    padding: 0.3rem 0;
+    font-size: 1.8rem;
+    background-color: rgba(0,0,0,0.7);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header_title span {
+    color: #CD212A;
+    text-decoration: underline;
+    margin-left: 0.5rem;
+}
+
