@@ -27,23 +27,23 @@ body {
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 60px;
 }
 
 .flag_wrapper {
-    flex-grow: 1;
     align-self: flex-start;
 }
 
 .flag_image {
-    width: 30%;
+    width: 100%;
     height: auto;
 }
 
 .nav_wrapper {
-    flex-grow: 1;
+    padding-right: 5rem;
 }
 
 .nav_text {
@@ -51,7 +51,7 @@ nav {
     text-decoration: none;
     padding: 0 1.7rem;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .contact {
@@ -62,18 +62,17 @@ nav {
 }
 
 .header_title_wrapper {
-    padding: 2rem 0;
+    padding: 5rem 0 1rem;
+    text-align: center;
 }
 
 .header_title {
-    color: white;
-    font-weight: 300;
-    text-align: center;
-    padding: 0.3rem 0;
-    font-size: 1.8rem;
-    background-color: rgba(0,0,0,0.7);
-    width: 70%;
-    margin: 0 auto;
+    display: inline-block;
+    color: #FFF;
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem 2rem;
+    font-weight: 400;
 }
 
 .header_title span {
@@ -81,4 +80,49 @@ nav {
     text-decoration: underline;
     margin-left: 0.5rem;
 }
+
+.header_logos_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.logos {
+    border-radius: 50%;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    padding: 1.5rem 1rem;
+    margin: 2em;
+}
+
+.logos i {
+    color: #CD212A;
+    font-size: 2.7rem;
+}
+
+
+/*ABOUT SECTION**********************************/
+
+
+.About h2 {
+    color: #CD212A;
+    font-size: 5rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.About p {
+    line-height: 1.5;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.7rem;
+}
+
+
+
 
