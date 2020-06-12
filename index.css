@@ -69,7 +69,7 @@ nav {
 .header_title {
     display: inline-block;
     color: #FFF;
-    font-size: 3rem;
+    font-size: 4rem;
     background: rgba(0, 0, 0, 0.7);
     padding: 1rem 2rem;
     font-weight: 400;
@@ -110,10 +110,10 @@ nav {
 
 .About h2 {
     color: #CD212A;
-    font-size: 5rem;
-    font-weight: 300;
+    font-size: 5.5rem;
+    font-weight: 200;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 .About p {
@@ -123,6 +123,47 @@ nav {
     font-size: 0.7rem;
 }
 
+
+/*GUIDES SECTION**********************************/
+
+
+.Guides {
+    background-color: #CD212A;
+    margin-top: 2rem;
+}
+
+.Guides_individual {
+    text-align: center;
+    padding: 2rem 3rem;
+}
+
+.Guides h2 {
+    color: #FFF;
+    font-size: 5.5rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.guide_img {
+    width: 25%;
+    height: auto;
+}
+
+.guide_name {
+    color: white;
+    font-weight: 200;
+    font-size: 2.2rem;
+    padding: 1rem 0;
+}
+
+.guide_info {
+    color: white;
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding: 1rem 0;
+}
 
 
 
