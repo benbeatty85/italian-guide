@@ -166,4 +166,81 @@ nav {
 }
 
 
+/*CONTACT SECTION**********************************/
 
+
+.Contact {
+    background-image: url(mobileimages/adventure-city-country-destination-240834%201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.form_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 7% 20%;
+}
+
+.contact-form {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    border: 5px solid #CD212A;
+    border-radius: 15px;
+    display: block;
+    margin-top: 1em;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    color: #644B4B;
+}
+
+.contact-form label input {
+    display: block;
+    padding: 0.75em;
+    width: 30vw;
+    font-size: 1.5rem;
+    color: #644B4B;
+}
+
+.contact-form label textarea {
+    display: block;
+    padding: 0.75em;
+    width: 30vw;
+    font-size: 1.5rem;
+    color: #644B4B;
+}
+
+
+.logo_contact {
+    border-radius: 50%;
+    background-color: #CD212A;
+    text-decoration: none;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    padding: 1.5rem 1rem;
+    margin: -2.5rem 2rem 2rem 2rem;
+}
+
+.logo_contact i {
+    color: #FFF;
+    font-size: 2.7rem;
+}
+
+.button {
+    background-color: #CD212A;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
