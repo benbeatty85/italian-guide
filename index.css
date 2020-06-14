@@ -181,7 +181,7 @@ nav {
 .form_wrapper {
     width: 100%;
     margin: 0 auto;
-    padding: 7% 20%;
+    padding: 7% 10%;
 }
 
 .contact-form {
@@ -205,7 +205,7 @@ nav {
 .contact-form label input {
     display: block;
     padding: 0.75em;
-    width: 30vw;
+    width: 45vw;
     font-size: 1.5rem;
     color: #644B4B;
 }
@@ -213,11 +213,10 @@ nav {
 .contact-form label textarea {
     display: block;
     padding: 0.75em;
-    width: 30vw;
+    width: 45vw;
     font-size: 1.5rem;
     color: #644B4B;
 }
-
 
 .logo_contact {
     border-radius: 50%;
@@ -239,8 +238,43 @@ nav {
     background-color: #CD212A;
     color: white;
     padding: 1rem 2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border-radius: 15px;
     margin: 2rem 0;
     text-transform: capitalize;
+}
+
+
+/*FOOTER SECTION**********************************/
+
+
+.footer_logos_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 1rem;
+}
+
+.logos_footer i {
+    color: #CD212A;
+    font-size: 4rem;
+    padding: 0 3.2rem;
+}
+
+.company_info_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+}
+
+.company_info_wrapper p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+.line {
+    border-left: 5px solid #CD212A;
+    height: 100px;
 }
