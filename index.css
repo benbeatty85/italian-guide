@@ -43,15 +43,15 @@ nav {
 }
 
 .nav_wrapper {
-    padding-right: 5rem;
+    padding-right: 2rem;
 }
 
 .nav_text {
     color: #CD212A;
     text-decoration: none;
-    padding: 0 1.7rem;
+    padding: 0 0.5rem;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
 }
 
 .contact {
@@ -69,7 +69,7 @@ nav {
 .header_title {
     display: inline-block;
     color: #FFF;
-    font-size: 4rem;
+    font-size: 1.5rem;
     background: rgba(0, 0, 0, 0.7);
     padding: 1rem 2rem;
     font-weight: 400;
@@ -93,15 +93,15 @@ nav {
     background-color: white;
     text-decoration: none;
     text-align: center;
-    width: 90px;
-    height: 90px;
-    padding: 1.5rem 1rem;
+    width: 55px;
+    height: 55px;
+    padding: 1rem 1rem;
     margin: 2em;
 }
 
 .logos i {
     color: #CD212A;
-    font-size: 2.7rem;
+    font-size: 1.5rem;
 }
 
 
@@ -110,17 +110,17 @@ nav {
 
 .About h2 {
     color: #CD212A;
-    font-size: 5.5rem;
+    font-size: 2.5rem;
     font-weight: 200;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 .About p {
     line-height: 1.5;
     text-align: center;
-    padding: 1rem 2rem;
-    font-size: 0.7rem;
+    padding: 0.5rem 2rem;
+    font-size: 0.8rem;
 }
 
 
@@ -134,27 +134,27 @@ nav {
 
 .Guides_individual {
     text-align: center;
-    padding: 2rem 3rem;
+    padding: 0.5rem 3rem;
 }
 
 .Guides h2 {
     color: #FFF;
-    font-size: 5.5rem;
+    font-size: 3rem;
     font-weight: 200;
     text-align: center;
     padding: 1.5rem 0 1rem 0;
 }
 
 .guide_img {
-    width: 25%;
+    width: 35%;
     height: auto;
 }
 
 .guide_name {
     color: white;
     font-weight: 200;
-    font-size: 2.2rem;
-    padding: 1rem 0;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
 }
 
 .guide_info {
@@ -181,24 +181,24 @@ nav {
 .form_wrapper {
     width: 100%;
     margin: 0 auto;
-    padding: 7% 10%;
+    padding: 15% 10%;
 }
 
 .contact-form {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .contact-form label {
-    border: 5px solid #CD212A;
+    border: 3px solid #CD212A;
     border-radius: 15px;
     display: block;
     margin-top: 1em;
     text-transform: capitalize;
-    font-size: 1.1em;
+    font-size: 1rem;
     color: #644B4B;
 }
 
@@ -206,16 +206,18 @@ nav {
     display: block;
     padding: 0.75em;
     width: 45vw;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #644B4B;
+    border-radius: 15px;
 }
 
 .contact-form label textarea {
     display: block;
     padding: 0.75em;
     width: 45vw;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #644B4B;
+    border-radius: 15px;
 }
 
 .logo_contact {
@@ -223,22 +225,22 @@ nav {
     background-color: #CD212A;
     text-decoration: none;
     text-align: center;
-    width: 90px;
-    height: 90px;
-    padding: 1.5rem 1rem;
-    margin: -2.5rem 2rem 2rem 2rem;
+    width: 55px;
+    height: 55px;
+    padding: 1rem 1rem;
+    margin: -1.5rem 2rem 2rem 2rem;
 }
 
 .logo_contact i {
     color: #FFF;
-    font-size: 2.7rem;
+    font-size: 1.5rem;
 }
 
 .button {
     background-color: #CD212A;
     color: white;
     padding: 1rem 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
     border-radius: 15px;
     margin: 2rem 0;
     text-transform: capitalize;
@@ -252,29 +254,36 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 3rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 .logos_footer i {
     color: #CD212A;
-    font-size: 4rem;
-    padding: 0 3.2rem;
+    font-size: 2rem;
+    padding: 0 1.5rem;
 }
 
 .company_info_wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 1rem;
     align-items: center;
 }
 
 .company_info_wrapper p {
-    font-size: 1.7rem;
+    font-size: 0.8rem;
     line-height: 1.5;
 }
 
 .line {
-    border-left: 5px solid #CD212A;
-    height: 100px;
+    border-left: 2px solid #CD212A;
+    height: 50px;
 }
+
+
+
+/*MEDIA QUERIES**********************************/
+
+
+@media only screen and (min-width: 768px) {}
