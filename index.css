@@ -88,6 +88,10 @@ nav {
     align-content: center;
 }
 
+.header_logos_wrapper_LG {
+    display: none;
+}
+
 .logos {
     border-radius: 50%;
     background-color: white;
@@ -286,4 +290,72 @@ nav {
 /*MEDIA QUERIES**********************************/
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+    /*HEADER SECTION**********************************/
+
+    .header {
+        background-image: url(mobileimages/header_img_DK.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav_wrapper {
+        padding-right: 5rem;
+    }
+
+    .nav_text {
+        color: #CD212A;
+        text-decoration: none;
+        padding: 0 0.5rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .contact {
+        background: #CD212A;
+        color: white;
+        border-radius: 10px;
+        padding: 0.5rem;
+    }
+
+    .header_title {
+        font-size: 3rem;
+        display: inline-block;
+        color: #FFF;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0.2rem 1rem;
+        font-weight: 300;
+    }
+
+    .header_logos_wrapper {
+        display: none;
+    }
+
+    .header_logos_wrapper_LG {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 2rem;
+    }
+
+    .logos {
+        border-radius: 50%;
+        background-color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 75px;
+        height: 75px;
+        padding: 1.3rem 0.5rem;
+        margin: 2em;
+    }
+
+    .logos i {
+        color: #CD212A;
+        font-size: 2rem;
+    }
+
+}
