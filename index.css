@@ -112,7 +112,7 @@ nav {
 /*ABOUT SECTION**********************************/
 
 
-.About h2 {
+.about_text_wrapper h2 {
     color: #CD212A;
     font-size: 2.5rem;
     font-weight: 200;
@@ -120,11 +120,15 @@ nav {
     padding: 1rem 0;
 }
 
-.About p {
+.about_text_wrapper p {
     line-height: 1.5;
     text-align: center;
     padding: 0.5rem 2rem;
     font-size: 0.8rem;
+}
+
+.about_img {
+    display: none;
 }
 
 
@@ -295,7 +299,7 @@ nav {
     /*HEADER SECTION**********************************/
 
     .header {
-        background-image: url(mobileimages/header_img_DK.jpg);
+        background-image: url(desktopimages/header_img_DK.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -356,6 +360,85 @@ nav {
     .logos i {
         color: #CD212A;
         font-size: 2rem;
+    }
+
+    /*ABOUT SECTION**********************************/
+
+    .About {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about_img {
+        width: 80%;
+        height: auto;
+        display: block;
+    }
+
+    .about_image_wrapper,
+    .about_text_wrapper {
+        flex: 1;
+    }
+
+    .about_text_wrapper {
+        align-self: center;
+        padding-right: 2rem;
+    }
+
+    .about_text_wrapper h2 {
+        color: #CD212A;
+        font-size: 2.8rem;
+        font-weight: 200;
+        text-align: left;
+        padding: 1rem 0;
+    }
+
+    .about_text_wrapper p {
+        line-height: 1.5;
+        text-align: left;
+        padding: 0.5rem 0;
+        font-size: 0.8rem;
+    }
+
+    /*GUIDES SECTION**********************************/
+
+
+    .Guides {
+        background-color: #CD212A;
+        margin-top: 0;
+    }
+
+    .Guides_individual {
+        text-align: center;
+        padding: 0.5rem 3rem;
+    }
+
+    .Guides h2 {
+        color: #FFF;
+        font-size: 3rem;
+        font-weight: 200;
+        text-align: center;
+        padding: 1.5rem 0 1rem 0;
+    }
+
+    .guide_img {
+        width: 35%;
+        height: auto;
+    }
+
+    .guide_name {
+        color: white;
+        font-weight: 200;
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+    }
+
+    .guide_info {
+        color: white;
+        font-weight: 200;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        padding: 1rem 0;
     }
 
 }
