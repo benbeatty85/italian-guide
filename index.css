@@ -190,6 +190,10 @@ nav {
     width: 100%;
 }
 
+.form_wrapper h2 {
+    display: none;
+}
+
 .form_wrapper {
     width: 100%;
     margin: 0 auto;
@@ -391,7 +395,7 @@ nav {
 
     .about_text_wrapper h2 {
         color: #CD212A;
-        font-size: 2.8rem;
+        font-size: 3rem;
         font-weight: 200;
         text-align: left;
         padding: 1rem 0;
@@ -415,7 +419,7 @@ nav {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding: 0 0.5rem 1rem 0.5rem; 
+        padding: 0 0.5rem 1rem 0.5rem;
     }
 
     .Guides_individual:nth-child(2) {
@@ -444,7 +448,7 @@ nav {
 
     .Guides h2 {
         color: #FFF;
-        font-size: 4.5rem;
+        font-size: 4rem;
         font-weight: 200;
         text-align: center;
         padding: 1.5rem 0 1rem 0;
@@ -456,7 +460,7 @@ nav {
 
     .guide_img_dk {
         display: block;
-        width: 75%;
+        width: 70%;
         height: auto;
         margin: 0 auto;
     }
@@ -474,6 +478,108 @@ nav {
         font-size: 0.9rem;
         line-height: 1.4;
         padding: 0.5rem 0;
+    }
+
+    /*CONTACT SECTION**********************************/
+
+
+    .Contact {
+        background-image: url(desktopimages/adventure-city-country-destination-240834%201.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .form_wrapper h2 {
+        display: block;
+        color: #CD212A;
+        font-size: 3rem;
+        font-weight: 300;
+        padding: 0.3rem;
+        letter-spacing: 1px;
+    }
+
+    .form_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10% 10%;
+    }
+    
+    .contact_label_wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem 0;
+    }
+    
+    .name {
+        margin-right: 1rem;
+    }
+    
+    .email {
+        margin-left: 1rem;
+    }
+
+    .contact-form {
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form label {
+        border: 3px solid #CD212A;
+        border-radius: 15px;
+        display: block;
+        margin-top: 1em;
+        text-transform: capitalize;
+        font-size: 1rem;
+        color: #644B4B;
+    }
+
+    .contact-form label input {
+        display: block;
+        padding: 0.75em;
+        width: 30vw;
+        font-size: 1rem;
+        color: #644B4B;
+        border-radius: 15px;
+    }
+
+    .contact-form label textarea {
+        display: block;
+        width: 65vw;
+        font-size: 1rem;
+        color: #644B4B;
+        border-radius: 15px;
+    }
+
+    .logo_contact {
+        border-radius: 50%;
+        background-color: #CD212A;
+        text-decoration: none;
+        text-align: center;
+        width: 85px;
+        height: 85px;
+        padding: 1.4rem;
+        margin: -2.5rem 2rem 2rem 2rem;
+    }
+
+    .logo_contact i {
+        color: #FFF;
+        font-size: 2.5rem;
+    }
+
+    .button {
+        background-color: #CD212A;
+        color: white;
+        padding: 0.8rem 4rem;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        margin: 2rem 0;
+        text-transform: capitalize;
     }
 
 }
