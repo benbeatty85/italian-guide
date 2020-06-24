@@ -292,9 +292,16 @@ nav {
     line-height: 1.5;
 }
 
-.line {
+.line_DK {
     border-left: 2px solid #CD212A;
     height: 50px;
+    display: none;
+}
+
+.line_MOB {
+    border-left: 2px solid #CD212A;
+    height: 50px;
+    display: block;
 }
 
 
@@ -506,17 +513,17 @@ nav {
         margin: 0 auto;
         padding: 10% 10%;
     }
-    
+
     .contact_label_wrapper {
         display: flex;
         flex-direction: row;
         margin: 1rem 0;
     }
-    
+
     .name {
         margin-right: 1rem;
     }
-    
+
     .email {
         margin-left: 1rem;
     }
@@ -580,6 +587,388 @@ nav {
         border-radius: 15px;
         margin: 2rem 0;
         text-transform: capitalize;
+    }
+
+    /*FOOTER SECTION**********************************/
+
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .footer_logos_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1.5rem 1rem;
+        flex: 1;
+    }
+
+    .logos_footer i {
+        color: #CD212A;
+        font-size: 2.2rem;
+        padding: 0 1.5rem;
+    }
+
+    .company_info_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        align-items: center;
+        flex: 1;
+    }
+
+    .company_info_wrapper p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .line_DK {
+        border-left: 2px solid #CD212A;
+        height: 60px;
+        display: block;
+    }
+
+    .line_MOB {
+        border-left: 2px solid #CD212A;
+        height: 50px;
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    /*HEADER SECTION**********************************/
+
+    .header {
+        background-image: url(desktopimages/header_img_DK.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav_wrapper {
+        padding-right: 5rem;
+    }
+
+    .nav_text {
+        color: #CD212A;
+        text-decoration: none;
+        padding: 0 1.5rem;
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+
+    .contact {
+        background: #CD212A;
+        color: white;
+        border-radius: 10px;
+        padding: 0.5rem;
+    }
+
+    .header_title {
+        font-size: 4rem;
+        display: inline-block;
+        color: #FFF;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0.2rem 1rem;
+        font-weight: 300;
+    }
+
+    .header_logos_wrapper {
+        display: none;
+    }
+
+    .header_logos_wrapper_LG {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 2rem;
+    }
+
+    .logos {
+        border-radius: 50%;
+        background-color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 85px;
+        height: 85px;
+        padding: 1.3rem 0rem;
+        margin: 2em;
+    }
+
+    .logos i {
+        color: #CD212A;
+        font-size: 2.5rem;
+    }
+
+    /*ABOUT SECTION**********************************/
+
+    .About {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about_img {
+        width: 70%;
+        height: auto;
+        display: block;
+    }
+
+    .about_image_wrapper,
+    .about_text_wrapper {
+        flex: 1;
+    }
+
+    .about_text_wrapper {
+        align-self: center;
+        padding-right: 2rem;
+    }
+
+    .about_text_wrapper h2 {
+        color: #CD212A;
+        font-size: 4rem;
+        font-weight: 200;
+        text-align: left;
+        padding: 1rem 0;
+    }
+
+    .about_text_wrapper p {
+        line-height: 1.5;
+        text-align: left;
+        padding: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    /*GUIDES SECTION**********************************/
+
+
+    .Guides {
+        margin-top: 0;
+    }
+
+    .guides_desktop_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 0.5rem 1rem 0.5rem;
+    }
+
+    .Guides_individual:nth-child(2) {
+        position: relative;
+    }
+
+    .Guides_individual:nth-child(2)::before,
+    .Guides_individual:nth-child(2)::after {
+        content: '';
+        height: 93%;
+        width: 2px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #FFF;
+    }
+
+    .Guides_individual:nth-child(2)::after {
+        left: 0;
+    }
+
+    .Guides_individual {
+        text-align: left;
+        padding: 0.5rem 1.7rem;
+    }
+
+    .Guides h2 {
+        color: #FFF;
+        font-size: 5rem;
+        font-weight: 200;
+        text-align: center;
+        padding: 1.5rem 0 1rem 0;
+    }
+
+    .guide_img {
+        display: none;
+    }
+
+    .guide_img_dk {
+        display: block;
+        width: 65%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .guide_name {
+        color: white;
+        font-weight: 200;
+        font-size: 1.4rem;
+        padding: 0.5rem 0;
+    }
+
+    .guide_info {
+        color: white;
+        font-weight: 200;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        padding: 0.5rem 0;
+    }
+
+    /*CONTACT SECTION**********************************/
+
+
+    .Contact {
+        background-image: url(desktopimages/adventure-city-country-destination-240834%201.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .form_wrapper h2 {
+        display: block;
+        color: #CD212A;
+        font-size: 4rem;
+        font-weight: 300;
+        padding: 0.3rem;
+        letter-spacing: 1px;
+    }
+
+    .form_wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding: 12% 15%;
+    }
+
+    .contact_label_wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem 0;
+    }
+
+    .name {
+        margin-right: 1rem;
+    }
+
+    .email {
+        margin-left: 1rem;
+    }
+
+    .contact-form {
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form label {
+        border: 3px solid #CD212A;
+        border-radius: 15px;
+        display: block;
+        margin-top: 1em;
+        text-transform: capitalize;
+        font-size: 1rem;
+        color: #644B4B;
+    }
+
+    .contact-form label input {
+        display: block;
+        padding: 0.75em;
+        width: 25vw;
+        font-size: 1rem;
+        color: #644B4B;
+        border-radius: 15px;
+    }
+
+    .contact-form label textarea {
+        display: block;
+        width: 54vw;
+        font-size: 1rem;
+        color: #644B4B;
+        border-radius: 15px;
+    }
+
+    .logo_contact {
+        border-radius: 50%;
+        background-color: #CD212A;
+        text-decoration: none;
+        text-align: center;
+        width: 85px;
+        height: 85px;
+        padding: 1.4rem;
+        margin: -2.5rem 2rem 2rem 2rem;
+    }
+
+    .logo_contact i {
+        color: #FFF;
+        font-size: 2.5rem;
+    }
+
+    .button {
+        background-color: #CD212A;
+        color: white;
+        padding: 0.8rem 4rem;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        margin: 2rem 0;
+        text-transform: capitalize;
+    }
+
+    /*FOOTER SECTION**********************************/
+
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .footer_logos_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1.5rem 1rem;
+        flex: 1;
+    }
+
+    .logos_footer i {
+        color: #CD212A;
+        font-size: 2.5rem;
+        padding: 0 1.5rem;
+    }
+
+    .company_info_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        align-items: center;
+        flex: 1;
+    }
+
+    .company_info_wrapper p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    .line_DK {
+        border-left: 2px solid #CD212A;
+        height: 70px;
+        display: block;
+    }
+
+    .line_MOB {
+        border-left: 2px solid #CD212A;
+        height: 50px;
+        display: none;
     }
 
 }
