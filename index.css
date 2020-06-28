@@ -1017,7 +1017,7 @@ nav {
     }
 
     .flag_image {
-        width: 20%;
+        width: 13%;
         height: auto;
     }
 
@@ -1033,18 +1033,18 @@ nav {
         text-decoration: none;
         padding: 0 2.5rem;
         cursor: pointer;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .contact {
         background: #CD212A;
         color: white;
         border-radius: 10px;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .header_title {
-        font-size: 7rem;
+        font-size: 5rem;
         display: inline-block;
         color: #FFF;
         background: rgba(0, 0, 0, 0.7);
@@ -1069,15 +1069,15 @@ nav {
         background-color: white;
         text-decoration: none;
         text-align: center;
-        width: 150px;
-        height: 150px;
-        padding: 2.2rem 0rem;
+        width: 100px;
+        height: 100px;
+        padding: 1.8rem 0rem;
         margin: 2rem;
     }
 
     .logos i {
         color: #CD212A;
-        font-size: 4.7rem;
+        font-size: 3rem;
     }
 
     /*ABOUT SECTION**********************************/
@@ -1100,12 +1100,12 @@ nav {
 
     .about_text_wrapper {
         align-self: center;
-        padding-right: 5rem;
+        padding-right: 10rem;
     }
 
     .about_text_wrapper h2 {
         color: #CD212A;
-        font-size: 6.2rem;
+        font-size: 5rem;
         font-weight: 200;
         text-align: left;
         padding: 1rem 0;
@@ -1115,7 +1115,7 @@ nav {
         line-height: 1.5;
         text-align: left;
         padding: 0.5rem 0;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 
     /*GUIDES SECTION**********************************/
@@ -1130,6 +1130,8 @@ nav {
         flex-direction: row;
         justify-content: center;
         padding: 2rem;
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     .Guides_individual:nth-child(2) {
@@ -1140,7 +1142,7 @@ nav {
     .Guides_individual:nth-child(2)::after {
         content: '';
         height: 95%;
-        width: 3px;
+        width: 2px;
         position: absolute;
         right: 0;
         top: 0;
@@ -1158,7 +1160,7 @@ nav {
 
     .Guides h2 {
         color: #FFF;
-        font-size: 6.5rem;
+        font-size: 5rem;
         font-weight: 200;
         text-align: center;
         padding: 1.5rem 0 1rem 0;
@@ -1178,14 +1180,14 @@ nav {
     .guide_name {
         color: white;
         font-weight: 200;
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding: 0.5rem 0;
     }
 
     .guide_info {
         color: white;
         font-weight: 200;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 1.4;
         padding: 0.5rem 0;
     }
@@ -1205,7 +1207,7 @@ nav {
     .form_wrapper h2 {
         display: block;
         color: #CD212A;
-        font-size: 6.5rem;
+        font-size: 5rem;
         font-weight: 300;
         padding: 0.3rem;
         letter-spacing: 1px;
@@ -1253,7 +1255,7 @@ nav {
         display: block;
         padding: 0.75em;
         width: 25vw;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #644B4B;
         border-radius: 15px;
     }
@@ -1261,7 +1263,7 @@ nav {
     .contact-form label textarea {
         display: block;
         width: 54vw;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #644B4B;
         border-radius: 15px;
     }
@@ -1271,22 +1273,22 @@ nav {
         background-color: #CD212A;
         text-decoration: none;
         text-align: center;
-        width: 150px;
-        height: 150px;
-        padding: 2.2rem 0rem;
-        margin: -4.6rem 2rem 2rem 2rem;
+        width: 100px;
+        height: 100px;
+        padding: 1.8rem 0rem;
+        margin: -3.3rem 2rem 2rem 2rem;
     }
 
     .logo_contact i {
         color: #FFF;
-        font-size: 4.7rem;
+        font-size: 3rem;
     }
 
     .button {
         background-color: #CD212A;
         color: white;
         padding: 0.8rem 4rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
         border-radius: 15px;
         margin: 2rem 0;
         text-transform: capitalize;
@@ -1312,8 +1314,8 @@ nav {
 
     .logos_footer i {
         color: #CD212A;
-        font-size: 4rem;
-        padding: 0 3rem;
+        font-size: 3rem;
+        padding: 0 2rem;
     }
 
     .company_info_wrapper {
@@ -1326,12 +1328,12 @@ nav {
     }
 
     .company_info_wrapper p {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         line-height: 1.5;
     }
 
     .line_DK {
-        border-left: 3px solid #CD212A;
+        border-left: 2px solid #CD212A;
         height: 120px;
         display: block;
     }
