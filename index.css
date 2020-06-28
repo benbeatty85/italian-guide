@@ -326,7 +326,6 @@ nav {
 
     .flag_wrapper {
         align-self: flex-start;
-        flex: 1;
     }
 
     .flag_image {
@@ -335,8 +334,7 @@ nav {
     }
 
     .nav_wrapper {
-        padding-right: 0rem;
-        flex: 1;
+        padding-right: 2rem;
     }
 
     .nav_text {
@@ -669,18 +667,15 @@ nav {
 
     .flag_wrapper {
         align-self: flex-start;
-        flex: 1;
     }
 
     .flag_image {
-        width: 12%;
+        width: 30%;
         height: auto;
     }
 
     .nav_wrapper {
-        padding-right: 0rem;
-        flex: 1;
-        padding-left: 8rem;
+        padding-right: 4rem;
     }
 
     .nav_text {
@@ -1013,19 +1008,15 @@ nav {
     
     .flag_wrapper {
         align-self: flex-start;
-        flex: 1;
     }
 
     .flag_image {
-        width: 13%;
+        width: 30%;
         height: auto;
     }
 
     .nav_wrapper {
-        padding-right: 0rem;
-        flex: 1;
-        padding-top: 5rem;
-        padding-left: 5rem;
+        padding-right: 4rem;
     }
 
     .nav_text {
