@@ -673,13 +673,14 @@ nav {
     }
 
     .flag_image {
-        width: 20%;
+        width: 12%;
         height: auto;
     }
 
     .nav_wrapper {
         padding-right: 0rem;
         flex: 1;
+        padding-left: 8rem;
     }
 
     .nav_text {
@@ -699,7 +700,7 @@ nav {
     }
 
     .header_title {
-        font-size: 4rem;
+        font-size: 3rem;
         display: inline-block;
         color: #FFF;
         background: rgba(0, 0, 0, 0.7);
@@ -717,21 +718,20 @@ nav {
         flex-direction: row;
         padding-bottom: 2rem;
     }
-
     .logos {
         border-radius: 50%;
         background-color: white;
         text-decoration: none;
         text-align: center;
-        width: 85px;
-        height: 85px;
-        padding: 1.3rem 0rem;
+        width: 80px;
+        height: 80px;
+        padding: 1.5rem 0rem;
         margin: 2em;
     }
 
     .logos i {
         color: #CD212A;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     /*ABOUT SECTION**********************************/
@@ -754,7 +754,7 @@ nav {
 
     .about_text_wrapper {
         align-self: center;
-        padding-right: 2rem;
+        padding-right: 8rem;
     }
 
     .about_text_wrapper h2 {
@@ -824,7 +824,7 @@ nav {
 
     .guide_img_dk {
         display: block;
-        width: 40%;
+        width: 35%;
         height: auto;
         margin: 0 auto;
     }
@@ -832,7 +832,7 @@ nav {
     .guide_name {
         color: white;
         font-weight: 200;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         padding: 0.5rem 0;
     }
 
