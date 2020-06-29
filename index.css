@@ -653,7 +653,7 @@ nav {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 100%;
         width: 100%;
     }
 
@@ -665,7 +665,7 @@ nav {
     }
 
     .flag_image {
-        width: 8%;
+        width: 7%;
         height: auto;
         margin-right: auto;
     }
@@ -673,7 +673,7 @@ nav {
     .nav_text {
         color: #CD212A;
         text-decoration: none;
-        margin: 0 1.5rem;
+        margin: 0 1rem;
         cursor: pointer;
         font-size: 1.2rem;
     }
@@ -684,7 +684,7 @@ nav {
         border-radius: 10px;
         padding: 0.5rem;
         margin-right: 3rem;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
     }
 
     .header_title {
