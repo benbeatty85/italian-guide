@@ -665,7 +665,7 @@ nav {
     }
 
     .flag_image {
-        width: 7%;
+        width: 6%;
         height: auto;
         margin-right: auto;
     }
@@ -773,6 +773,8 @@ nav {
         flex-direction: row;
         justify-content: center;
         padding: 0 0.5rem 1rem 0.5rem;
+        max-width: 1350px;
+        margin: 0 auto;
     }
 
     .Guides_individual:nth-child(2) {
@@ -996,7 +998,7 @@ nav {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 100%;
         width: 100%;
     }
 
@@ -1008,7 +1010,7 @@ nav {
     }
 
     .flag_image {
-        width: 7%;
+        width: 6%;
         height: auto;
         margin-right: auto;
     }
@@ -1118,8 +1120,6 @@ nav {
         flex-direction: row;
         justify-content: center;
         padding: 2rem;
-        max-width: 1440px;
-        margin: 0 auto;
     }
 
     .Guides_individual:nth-child(2) {
