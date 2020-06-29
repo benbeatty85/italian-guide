@@ -309,7 +309,7 @@ nav {
         background-image: url(desktopimages/vineyard-1731834%201.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: top;
         height: 100%;
         width: 100%;
     }
@@ -322,7 +322,7 @@ nav {
     }
 
     .flag_image {
-        width: 10%;
+        width: 7%;
         height: auto;
         margin-right: auto;
     }
@@ -332,7 +332,7 @@ nav {
         text-decoration: none;
         padding: 0 1.5rem;
         cursor: pointer;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .contact {
@@ -652,7 +652,7 @@ nav {
         background-image: url(desktopimages/vineyard-1731834%201.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: top;
         height: 100%;
         width: 100%;
     }
@@ -1018,9 +1018,9 @@ nav {
     .nav_text {
         color: #CD212A;
         text-decoration: none;
-        margin: 0 2rem;
+        margin: 0 1rem;
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .contact {
