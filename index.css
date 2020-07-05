@@ -252,6 +252,7 @@ nav {
     border-radius: 15px;
     margin: 2rem 0;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 
@@ -704,7 +705,7 @@ nav {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        padding-bottom: 2rem;
+        padding-bottom: 8rem;
     }
 
     .logos {
@@ -824,7 +825,7 @@ nav {
         color: white;
         font-weight: 200;
         font-size: 1.6rem;
-        padding: 0.5rem 0;
+        padding: 0.5em 0 0.5em 1em;
     }
 
     .guide_info {
@@ -832,7 +833,7 @@ nav {
         font-weight: 200;
         font-size: 0.9rem;
         line-height: 1.4;
-        padding: 0.5rem 0;
+        padding: 0.5em 0 5em 2em;
     }
 
     /*CONTACT SECTION**********************************/
@@ -1033,13 +1034,13 @@ nav {
     }
 
     .header_title {
-        font-size: 5rem;
+        font-size: 4rem;
         display: inline-block;
         color: #FFF;
         background: rgba(0, 0, 0, 0.7);
         padding: 0.5rem 2rem;
         font-weight: 300;
-        margin: 7rem 0 3rem 0;
+        margin: 2rem 0 3rem 0;
         letter-spacing: 3px;
     }
 
@@ -1051,7 +1052,7 @@ nav {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        padding-bottom: 5rem;
+        padding-bottom: 8rem;
     }
 
     .logos {
@@ -1061,13 +1062,13 @@ nav {
         text-align: center;
         width: 100px;
         height: 100px;
-        padding: 1.8rem 0rem;
+        padding: 2rem 0rem;
         margin: 2rem;
     }
 
     .logos i {
         color: #CD212A;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     /*ABOUT SECTION**********************************/
